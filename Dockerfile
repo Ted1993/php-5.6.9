@@ -1,4 +1,4 @@
-FROM registry.wpython.com:443/centos:6.6
+FROM registry.wpython.com/centos:6.6
 
 MAINTAINER xuqiangqiang "739827282@qq.com"
 

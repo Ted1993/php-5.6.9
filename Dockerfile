@@ -10,7 +10,7 @@ ADD ./supervisord.conf            /etc/supervisord.conf
 ADD ./install_env.sh 		  /root/tools/php/install_env.sh
 ADD ./update_openssl.sh		  /root/tools/php/update_openssl.sh
 ADD ./php-5.6.9.tar.gz		  /root/tools/php/
-ADD ./openssl-1.0.1h.tar.gz  	  /root/tools/php/
+#ADD ./openssl-1.0.1h.tar.gz  	  /root/tools/php/
 ADD ./install_nginx_php-5.6.9.sh  /root/tools/php/install_nginx_php-5.6.9.sh
 ADD ./install_php_extension.sh    /root/tools/php/install_php_extension.sh
 
